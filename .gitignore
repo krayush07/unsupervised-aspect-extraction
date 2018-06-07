@@ -1,4 +1,5 @@
 *.pyc
 *.class
 .idea/
-utility_dir/
+global_module/utility_dir/reviews/data/beer_advocate/
+global_module/utility_dir/reviews/data/data_github/

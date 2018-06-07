@@ -99,7 +99,7 @@ class Train:
             print("Loading model from: %s" % ckpt.model_checkpoint_path)
             tf.train.Saver().restore(session, ckpt.model_checkpoint_path)
 
-            aspect_file = open('aspect_file.txt', 'w')
+            aspect_file = open(model_obj.dir.output_path + '/aspect_file.txt', 'w')
 
             aspect_emb_matrix, vocab_emb_matrix = session.run([model_obj.aspect_emb_matrix, model_obj.vocab_emb_marix])
 
