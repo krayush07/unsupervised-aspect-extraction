@@ -3,3 +3,4 @@ from global_module.implementation_module.decoder import Decoder
 from global_module.implementation_module.reader import DataReader
 from global_module.implementation_module.model import Model
 from global_module.implementation_module.train import Train
+from global_module.implementation_module.test import Test
